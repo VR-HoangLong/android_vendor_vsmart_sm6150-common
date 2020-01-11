@@ -1,0 +1,1 @@
+# android_vendor_vsmart_sm6150-common-unk
