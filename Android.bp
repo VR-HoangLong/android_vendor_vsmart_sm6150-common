@@ -20,6 +20,16 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "QtiSystemService",
+	owner: "vsmart",
+	apk: "proprietary/app/QtiSystemService/QtiSystemService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "QtiTelephonyService",
 	owner: "vsmart",
 	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -28,6 +38,37 @@ android_app_import {
 		enabled: false,
 	},
 }
+
+android_app_import {
+	name: "embms",
+	owner: "vsmart",
+	apk: "proprietary/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "imssettings",
+	owner: "vsmart",
+	apk: "proprietary/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "vsmart",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
 
 android_app_import {
 	name: "ims",
